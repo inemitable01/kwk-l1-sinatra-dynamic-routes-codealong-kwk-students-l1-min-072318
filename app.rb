@@ -16,7 +16,7 @@ end
 
 get '/goodbye/:name' do
 @persons_name= params
-"goodbye #{@persons_name}"
+"Goodbye, #{@persons_name}."
 end
 
 get '/multiply/:num1/:num2' do
