@@ -4,7 +4,7 @@ class App < Sinatra::Base
 
   # This is a sample static route.
   get "Hello World" do
-    "Hello World!
+    "Hello World!"
  
   end
 
